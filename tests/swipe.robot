@@ -28,5 +28,5 @@ Deve remover o Capitão América
 
     Wait Until Element Is Visible    ${BTN_REMOve}    
     Click Element                    ${BTN_REMOve}
-    Sleep                            10
+    Wait Until Page Contains         Item removido!       
 
